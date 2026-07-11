@@ -303,18 +303,18 @@ main .hero-container .common-btn {
 }
 
 .btn-outline {
-    border: 1.5px solid #2563EB;
+    border: 1.5px solid #2563eb;
     background: transparent;
-    color: #2563EB;
+    color: #2563eb;
 }
 
 .btn-outline:hover {
-    background: #2563EB;
+    background: #2563eb;
     color: #fff;
 }
 
 .btn-fill {
-    background: #2563EB;
+    background: #2563eb;
     color: white;
     border: none;
 }
