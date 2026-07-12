@@ -530,9 +530,37 @@ main .hero-container .common-btn {
     transition: 0.3s ease;
 }
 
-.footer-social a:hover {
-    background: #2563eb;
-    border-color: #2563eb;
+.footer-social a:nth-child(1):hover {
+    background: #1877f2;
+    border-color: #1877f2;
+    transform: translateY(-4px);
+}
+
+.footer-social a:nth-child(2):hover {
+    background: #0a66c2;
+    border-color: #0a66c2;
+    transform: translateY(-4px);
+}
+.footer-social a:nth-child(3):hover {
+    background: #181717;
+    border-color: #181717;
+    transform: translateY(-4px);
+}
+.footer-social a:nth-child(4):hover {
+    background: linear-gradient(
+        45deg,
+        #f58529,
+        #feda77,
+        #dd2a7b,
+        #8134af,
+        #515bd4
+    );
+    border-color: transparent;
+    transform: translateY(-4px);
+}
+.footer-social a:nth-child(5):hover {
+    background: #ff0000;
+    border-color: #ff0000;
     transform: translateY(-4px);
 }
 
